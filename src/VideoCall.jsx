@@ -4,7 +4,7 @@ import io from 'socket.io-client';
 import Peer from 'simple-peer';
 
 // This is the URL of your Node.js Signaling Server running on port 3001
-const SERVER_URL = 'http://localhost:3001'; 
+const SERVER_URL = 'https://meet-server-7l39.onrender.com'; 
 
 // STUN Server Configuration for NAT Traversal
 const ICE_SERVERS = {
